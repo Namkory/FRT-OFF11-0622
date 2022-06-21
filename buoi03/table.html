@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./table.css">
+</head>
+<body>
+    <div class="main">
+        <table>
+            <thead class="header"> 
+                <tr >
+                    <th>#</th>
+                    <th>Thông tin</th>
+                    <th>Hình ảnh</th>
+                    <th>Trạng thái</th>
+                    <th>Sắp xếp</th>
+                    <th>Tạo mới</th>
+                    <th>Chỉnh sửa</th>
+                    <th>Hành động</th>     
+                </tr>
+            </thead>
+            <tbody>
+                <!-- line 1 -->
+                <tr class="line1">
+                     <td class="stt">1</td>
+                     <td class="infor">
+                        <p>Name: Trứng rán cần mỡ</p>
+                        <p>Description: Trứng rán cần mỡ, bắp cần bơ</p>
+                        <p>
+                            Price: 10.000vnđ
+                        </p>
+                     </td>
+                     <td class="images">
+                        <img class="egg" src="images/egg.jpg" alt="trứng á" />
+                     </td>
+                     <td class="status">
+                        <div class="status__button">
+                            <a class="status__button--link" href="#">
+                                <span class="status__button--link--span">
+                                    Kích hoạt
+                                </span>
+                            </a>
+                        </div>
+                     </td>
+                     <td class="sort">
+                        <input class="inputcell" type="text"  placeholder="1">
+                     </td>
+                     <td class="create">
+                        <div>
+                            <i class="fas fa-user"></i>
+                            <span>Admin</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-clock"></i>
+                            <span>16/12/2020</span>
+                        </div>  
+                        <p>15:38:37</p>
+                     </td>
+                     <td class="edit">
+                        <div>
+                            <i class="fas fa-user"></i>
+                            <span>Admin</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-clock"></i>
+                            <span>16/12/2020</span>
+                        </div>  
+                        <p>15:38:37</p>
+                     </td>
+                     <td class="action">
+                        <span class="action-edit">
+                            <i class="fas fa-pen"></i>
+                        </span>
+                        <span class="action-trash">
+                            <i class="fas fa-trash-alt"></i>
+                        </span>
+                        <span class="action-look">
+                            <i class="fas fa-biohazard"></i>
+                        </span>
+                     </td>
+                </tr>
+                <!-- line 2 -->
+                <tr class="line2">
+                    <td class="stt">2</td>
+                    <td class="infor">
+                       <p>Name: Trứng rán cần mỡ</p>
+                       <p>Description: Trứng rán cần mỡ, bắp cần bơ</p>
+                       <p>
+                           Price: 10.000vnđ
+                       </p>
+                    </td>
+                    <td class="images">
+                       <img class="egg" src="images/egg.jpg" alt="trứng á" />
+                    </td>
+                    <td class="status">
+                       <div class="status__button">
+                           <a class="status__button--link" href="#">
+                               <span class="status__button--link--span">
+                                   Kích hoạt
+                               </span>
+                           </a>
+                       </div>
+                    </td>
+                    <td class="sort">
+                       <input class="inputcell" type="text"  placeholder="2">
+                    </td>
+                    <td class="create">
+                       <div>
+                           <i class="fas fa-user"></i>
+                           <span>Admin</span>
+                       </div>
+                       <div>
+                           <i class="fas fa-clock"></i>
+                           <span>16/12/2020</span>
+                       </div>  
+                       <p>15:38:37</p>
+                    </td>
+                    <td class="edit">
+                       <div>
+                           <i class="fas fa-user"></i>
+                           <span>Admin</span>
+                       </div>
+                       <div>
+                           <i class="fas fa-clock"></i>
+                           <span>16/12/2020</span>
+                       </div>  
+                       <p>15:38:37</p>
+                    </td>
+                    <td class="action">
+                       <span class="action-edit">
+                           <i class="fas fa-pen"></i>
+                       </span>
+                       <span class="action-trash">
+                           <i class="fas fa-trash-alt"></i>
+                       </span>
+                       <span class="action-look">
+                           <i class="fas fa-biohazard"></i>
+                       </span>
+                    </td>
+               </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
