@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width:1200px;
+    width: 100%;
+    margin: 20px auto;
+    
+}
+.title{
+   text-align: center;
+    width: 100%;
+    font-size: 20px;;
+}
+.header{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius:3px;
+    height:70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.zoom{
+    width: 15%;
+    text-align: end;
+    padding-right: 20px;
+}
+
+.zoom-icon{
+    margin: 0 10px;
+    color: black;
+    font-size:16px;
+}
+
+button{
+    border:none;
+    cursor: pointer;
+}
+
+.background{
+    width: 25%;
+}
+
+.background-list{
+    display: flex;
+    list-style: none;
+    
+}
+
+.background-title{
+    width: 80px;
+    border: 1px solid gray;
+    border-radius:4px;
+    line-height:30px;
+    text-align: center;
+    margin: 0 2px;
+    background-color:#e9ecee;
+}
+
+.background-box{
+    display: block;
+    height: 31px;width: 31px;
+    border: 1px solid gray;
+    border-radius:4px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.content{
+    width: 100%;
+
+}
+
+.box1{background-color: blue;}
+.box2{background-color: white;}
+.box3{background-color: green;}
+.box4{background-color: yellow;}
+.box5{background-color: red;}
+
+.space{
+    display: flex;
+    width: 25%;
+   
+    
+}
+
+.space-title{
+    height:30px;
+    width:70%;
+    border: 1px solid gray;
+    background-color:#e9ecee;
+    display: block;
+    line-height:30px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.Align{ 
+    display:flex;
+    width: 25%;
+
+}
+
+#linespacing{
+    height:30px;
+    width: 30%;
+}
+#Align-text{
+    height:30px;
+    width: 30%;
+}
+.Align-title{
+    line-height:30px;
+    text-align: center;
+    height:30px;
+    width: 70%;
+    border: 1px solid gray;
+    border-radius:4px;
+    display: block;
+    background-color:#e9ecee;
+}
+
+option {
+    width:30%;
+  
+}
+
+.content{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius:3px;
+    max-height:550px;
+    margin-top: 20px;
+    padding:10px;
+   
+}
+
+.content > p{
+    font-size:18px;
+}

@@ -19,23 +19,30 @@
              </ul>  
         </div>
         <div class="inputt">
-            <input type="text" placeholder="what is your full name ?" ><br><br>
-            <input type="email" placeholder="what is your Email ?" ><br><br>
-            <input type="phone" placeholder="what is your Phone number ?" ><br><br>
-            <select >
+            <input class="form-input" id="fullname" type="text" placeholder="what is your full name ?" ><br>
+            <div class="error-msssage"></div>
+            <br>
+            <input class="form-input" id="name" type="email" placeholder="what is your Email ?" ><br>
+            <div class="error-msssage"></div>
+            <br>
+            <input class="form-input" id="phone" type="phone" placeholder="what is your Phone number ?" ><br>
+            <div class="error-msssage"></div>
+            <br>
+            <select id="Job" >
                 <option >Developer</option>
                 <option >Accountant</option>
                 <option >Actor</option>
                 <option >Artist</option>
             </select>
-            <textarea rows="10" cols="59"></textarea>
+            <textarea ></textarea>
         </br>
             <div class="footer">
-                <button class="btn-link1 " type="button">
-                    <a class="btn " href="#"> SEND CONTACT </a>
+                <button onclick="validateinput" class="btn-link1 btn " type="button">
+                     SEND CONTACT 
                 </button>
-                <button class="btn-link2 " type="button">
-                    <a class="btn " href="#"> DELETE LOCALSTORAGE </a>
+                <button>csdcs</button>
+                <button class="btn-link2 btn " type="button">
+                     DELETE LOCALSTORAGE 
                 </button>
             </div>
         </div>
