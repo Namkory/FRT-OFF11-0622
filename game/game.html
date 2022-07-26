@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/game.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Game Tìm Số Bí Mật</h1>
+        <div class="content">
+            <div class="number">
+                <div class="grid-number">
+                    <button type="button" class="grid-item" value="1" >1</button>
+                    <button type="button" class="grid-item" value="2" >2</button>
+                    <button type="button" class="grid-item" value="3" >3</button>  
+                    <button type="button" class="grid-item" value="4" >4</button>
+                    <button type="button" class="grid-item" value="5" >5</button>
+                    <button type="button" class="grid-item" value="6" >6</button>  
+                    <button type="button" class="grid-item" value="7" >7</button>
+                    <button type="button" class="grid-item" value="8" >8</button>
+                    <button type="button" class="grid-item" value="9" >9</button>
+                    <button type="button" class="grid-item" value="10" >10</button>
+                    <button type="button" class="grid-item" value="11" >11</button>
+                    <button type="button" class="grid-item" value="12" >12</button>  
+                    <button type="button" class="grid-item" value="13" >13</button>
+                    <button type="button" class="grid-item" value="14" >14</button>
+                    <button type="button" class="grid-item" value="15" >15</button>  
+                    <button type="button" class="grid-item" value="16" >16</button>
+                    <button type="button" class="grid-item" value="17" >17</button>
+                    <button type="button" class="grid-item" value="18" >18</button>  
+                    <button type="button" class="grid-item" value="19" >19</button>
+                    <button type="button" class="grid-item" value="20" >20</button>
+                    <button type="button" class="grid-item" value="21" >21</button>  
+                    <button type="button" class="grid-item" value="22" >22</button>
+                    <button type="button" class="grid-item" value="23" >23</button>
+                    <button type="button" class="grid-item" value="24" >24</button>  
+                    <button type="button" class="grid-item" value="25" >25</button>
+                    <button type="button" class="grid-item" value="26" >26</button>
+                    <button type="button" class="grid-item" value="27" >27</button>  
+                    <button type="button" class="grid-item" value="28" >28</button>  
+                    <button type="button" class="grid-item" value="29" >29</button>  
+                    <button type="button" class="grid-item" value="30" >30</button>  
+                  </div>
+            </div>
+            <div class="result">
+                <div class="result-header">
+                    <p>Số Lần Dự Đoán Của Bạn</p>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <div class="result-content">
+                    <div class="result-content-item active">
+                        <p class="result-content-item-text">Mời bạn đoán số bí mật</p>
+                    </div>
+                    <div class="result-content-item result-content-item-falses">
+                        <p class="boolean">Sai rồi</p>
+                        <p class="result-content-item-text">Số của bạn <strong>nhỏ</strong> hơn số bí mật</p>
+                    </div>
+                    <div class="result-content-item result-content-item-falseb">
+                        <p class="boolean">Sai rồi</p>
+                        <p class="result-content-item-text">Số của bạn <strong>lớn</strong> hơn số bí mật</p>
+                    </div>
+                    <div class="result-content-item result-content-item-true">
+                        <p class="boolean">Đúng rồi</p>
+                        <p class="result-content-item-text">Bạn đã đoán đúng số bí mật</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <button type="button" id="again" class="btn">
+                Chơi Lại
+            </button>
+            <button type="button" id="suggestions" class="btn">
+                Gợi ý
+            </button>
+            <button type="button" id="savegame" class="btn">
+                Lưu Game
+            </button>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./javascript/game.js"></script>
+</body>
+</html>
